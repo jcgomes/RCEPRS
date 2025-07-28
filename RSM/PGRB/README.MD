@@ -1,2 +1,2 @@
 # Legendas
-GMTR = Geração das mesorregiões por tipo de resíduos
+GMTR = Consulta de Geração nas Mesorregiões por Tipo de Resíduos
