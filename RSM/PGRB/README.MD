@@ -1,3 +1,3 @@
 # Legendas
 GMTR = Consulta de Geração nas Mesorregiões por Tipo de Resíduos <br>
-CTBD = Criação e Tratamento do Banco de Dados
+DATABASE = Local onde está o bando de dados (pgrb.db) e os arquivos usados em sua criação e tratamento.
