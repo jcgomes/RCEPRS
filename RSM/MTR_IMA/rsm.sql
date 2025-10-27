@@ -7,6 +7,8 @@ create table rsm
     uf_gerador               TEXT,
     cd_mun_ger               INTEGER,
     municipio_gerador        TEXT,
+    cd_codam_ger             INTEGER,
+    codam_ger                TEXT,
     cd_meso_ger              INTEGER,
     mesorregiao_gerador      TEXT,
     nome_gerador             TEXT,
@@ -14,6 +16,8 @@ create table rsm
     uf_destinador            TEXT,
     cd_mun_dest              INTEGER,
     municipio_destinador     TEXT,
+    cd_codam_dest            INTEGER,
+    codam_dest               TEXT,
     cd_meso_dest             INTEGER,
     mesorregiao_destinador   TEXT,
     nome_destinador          TEXT,
@@ -36,9 +40,5 @@ create table rsm
     declaracao_importacao    REAL,
     pais_importacao          REAL,
     porto_destino_importacao REAL,
-    porto_origem_importacao  REAL,
-    cd_codam_ger             INTEGER,
-    codam_ger                TEXT,
-    cd_codam_dest            INTEGER,
-    codam_dest               TEXT
+    porto_origem_importacao  REAL
 );
